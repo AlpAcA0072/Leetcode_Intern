@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5781dd5b-43f9-4b1a-b287-6a3fd5aea717" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/l0021.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/s0020.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/s0021.java" afterDir="false" />
+    <list default="true" id="5781dd5b-43f9-4b1a-b287-6a3fd5aea717" name="Changes" comment="0020, 0021">
+      <change afterPath="$PROJECT_DIR$/src/l0026.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l0053.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s0026.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/l0020.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,8 +51,16 @@
       <option name="presentableId" value="Default" />
       <updated>1710242317852</updated>
       <workItem from="1710242319129" duration="6285000" />
-      <workItem from="1710295887532" duration="3306000" />
+      <workItem from="1710295887532" duration="5180000" />
     </task>
+    <task id="LOCAL-00001" summary="0020, 0021">
+      <created>1710299367782</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710299367782</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -65,10 +71,20 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="0020, 0021" />
+    <option name="LAST_COMMIT_MESSAGE" value="0020, 0021" />
   </component>
 </project>
