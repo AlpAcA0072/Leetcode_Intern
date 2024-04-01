@@ -1,3 +1,5 @@
+package LeetcodeHot100;
+
 import java.util.Stack;
 
 public class l0020 {

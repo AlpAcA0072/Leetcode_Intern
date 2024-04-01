@@ -1,3 +1,5 @@
+package LeetcodeHot100;
+
 import java.util.List;
 
 public class l0206 {

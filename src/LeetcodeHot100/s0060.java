@@ -1,3 +1,5 @@
+package LeetcodeHot100;
+
 public class s0060 {
     class Solution {
         public int[] plusOne(int[] digits) {

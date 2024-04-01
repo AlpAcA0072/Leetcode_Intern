@@ -1,3 +1,5 @@
+package LeetcodeHot100;
+
 import java.util.LinkedHashMap;
 import java.util.Map;
 

@@ -1,3 +1,5 @@
+package LeetcodeHot100;
+
 public class s0021 {
     public class ListNode {
         int val;

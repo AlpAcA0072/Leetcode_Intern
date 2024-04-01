@@ -1,3 +1,5 @@
+package LeetcodeHot100;
+
 public class l0088 {
     public static void main(String[] args) {
         l0088.Solution solution = new Solution();

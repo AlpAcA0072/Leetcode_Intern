@@ -1,3 +1,5 @@
+package LeetcodeHot100;
+
 public class l0053 {
     // time O(n^2), space O(1) TLE
     // Brute Force with memory

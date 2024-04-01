@@ -1,3 +1,5 @@
+package LeetcodeHot100;
+
 import java.util.HashMap;
 
 public class l0001 {
