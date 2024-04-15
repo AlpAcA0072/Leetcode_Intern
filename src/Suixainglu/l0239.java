@@ -1,15 +1,14 @@
 package Suixainglu;
 
-import java.util.Comparator;
-import java.util.Deque;
-import java.util.LinkedList;
-import java.util.PriorityQueue;
+import java.util.*;
 
 public class l0239 {
     public static void main(String[] args) {
         l0239 l0239 = new l0239();
         Solution3 solution3 = l0239.new Solution3();
+        Solution4 solution4 = l0239.new Solution4();
         solution3.maxSlidingWindow(new int[]{1, 3, 1, 2, 0, 5}, 3);
+        solution4.maxSlidingWindow(new int[]{1}, 1);
     }
 
     // TODO: 复杂度分析?
@@ -130,6 +129,45 @@ public class l0239 {
 
                 // peek and set value
                 re[leftBound] = dq.peek()[0];
+            }
+
+            return re;
+        }
+    }
+
+    class Solution4 {
+        public int[] maxSlidingWindow(int[] nums, int k) {
+            // 计算prefixMax和postfixMax数组
+            int[] prefixMax = new int[nums.length];
+            int[] postfixMax = new int[nums.length];
+
+            for (int i = 0; i < nums.length; i++) {
+                if (i % k == 0) {
+                    prefixMax[i] = nums[i];
+                } else {
+                    prefixMax[i] = Math.max(nums[i], prefixMax[i - 1]);
+                }
+            }
+
+            for (int i = nums.length - 1; i >= 0; i--) {
+                // 如果i是最后一个
+                // 或者i的位置的右侧是下一个block的开头
+                if (i == nums.length - 1 || (i + 1) % k == 0) {
+                    postfixMax[i] = nums[i];
+                } else {
+                    postfixMax[i] = Math.max(nums[i], postfixMax[i + 1]);
+                }
+            }
+
+
+            int indexRe;
+            int[] re = new int[nums.length - k + 1];
+            for (int ptr = k - 1; ptr < nums.length; ptr++) {
+                // indexRe指向滑动窗口最左侧的元素
+                // ptr指向滑动窗口最右侧元素
+                indexRe = ptr - k + 1;
+
+                re[indexRe] = Math.max(prefixMax[ptr], postfixMax[indexRe]);
             }
 
             return re;
