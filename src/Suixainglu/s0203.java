@@ -1,6 +1,6 @@
 package Suixainglu;
 
-import UsefulLib.ListNode;
+import ULib.ListNode;
 
 public class s0203 {
     // recursion

@@ -1,6 +1,6 @@
 package Suixainglu;
 
-import UsefulLib.ListNode;
+import ULib.ListNode;
 
 public class l0024 {
     public static void main(String[] args) {

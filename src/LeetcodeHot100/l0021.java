@@ -1,6 +1,6 @@
 package LeetcodeHot100;
 
-import UsefulLib.ListNode;
+import ULib.ListNode;
 
 public class l0021 {
 
