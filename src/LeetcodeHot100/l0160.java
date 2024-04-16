@@ -1,15 +1,8 @@
 package LeetcodeHot100;
 
-public class l0160 {
-    public class ListNode {
-        int val;
-        ListNode next;
+import UsefulLib.ListNode;
 
-        ListNode(int x) {
-            val = x;
-            next = null;
-        }
-    }
+public class l0160 {
 
     // length of A: m, length of B: n
     // time: O(2 * max(m, n)), space: O(1)

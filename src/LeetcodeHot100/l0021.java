@@ -1,22 +1,8 @@
 package LeetcodeHot100;
 
+import UsefulLib.ListNode;
+
 public class l0021 {
-    public class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode() {
-        }
-
-        ListNode(int val) {
-            this.val = val;
-        }
-
-        ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
-    }
 
 
     class Solution {

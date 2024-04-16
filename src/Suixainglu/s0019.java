@@ -3,23 +3,9 @@ package Suixainglu;
 import java.util.Deque;
 import java.util.LinkedList;
 
+import UsefulLib.ListNode;
+
 public class s0019 {
-    public class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode() {
-        }
-
-        ListNode(int val) {
-            this.val = val;
-        }
-
-        ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
-    }
 
     // length of the linked list = L
     // Time: O(L), Space: O(L)

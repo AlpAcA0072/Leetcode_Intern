@@ -1,33 +1,19 @@
 package Suixainglu;
 
+import UsefulLib.ListNode;
+
 public class l0024 {
     public static void main(String[] args) {
         l0024 l0024 = new l0024();
-        ListNode head = l0024.new ListNode(1);
-        ListNode two = l0024.new ListNode(2);
-        ListNode three = l0024.new ListNode(3);
-        ListNode four = l0024.new ListNode(4);
+        ListNode head = new ListNode(1);
+        ListNode two = new ListNode(2);
+        ListNode three = new ListNode(3);
+        ListNode four = new ListNode(4);
         head.next = two;
         two.next = three;
         three.next = four;
         Solution solution = l0024.new Solution();
         solution.swapPairs(head);
-    }
-    public class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode() {
-        }
-
-        ListNode(int val) {
-            this.val = val;
-        }
-
-        ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
     }
 
     class Solution {

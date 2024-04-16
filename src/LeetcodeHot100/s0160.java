@@ -1,15 +1,8 @@
 package LeetcodeHot100;
 
-public class s0160 {
-    public class ListNode {
-        int val;
-        ListNode next;
+import UsefulLib.ListNode;
 
-        ListNode(int x) {
-            val = x;
-            next = null;
-        }
-    }
+public class s0160 {
 
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         if (headA == null || headB == null) {
