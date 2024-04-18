@@ -1,4 +1,4 @@
-package leetcodeHot100;
+package leetcodeHot100.L;
 
 public class l0053 {
     // time O(n^2), space O(1) TLE

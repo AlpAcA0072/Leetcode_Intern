@@ -1,4 +1,4 @@
-package leetcodeHot100;
+package leetcodeHot100.L;
 
 import java.util.Stack;
 

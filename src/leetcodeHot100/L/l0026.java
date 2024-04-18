@@ -1,6 +1,7 @@
-package leetcodeHot100;
+package leetcodeHot100.L;
 
-public class s0026 {
+public class l0026 {
+    // same as the standard solution.
     class Solution {
         public int removeDuplicates(int[] nums) {
             int counter = 1;

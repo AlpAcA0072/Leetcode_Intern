@@ -1,4 +1,4 @@
-package leetcodeHot100;
+package leetcodeHot100.S;
 
 import java.util.HashSet;
 import java.util.Set;

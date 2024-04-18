@@ -1,4 +1,4 @@
-package leetcodeHot100;
+package leetcodeHot100.L;
 
 public class l0088 {
     public static void main(String[] args) {

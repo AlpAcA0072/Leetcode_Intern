@@ -1,4 +1,4 @@
-package leetcodeHot100;
+package leetcodeHot100.S;
 
 import java.util.LinkedHashMap;
 import java.util.Map;

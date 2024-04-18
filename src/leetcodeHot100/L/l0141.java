@@ -1,4 +1,4 @@
-package leetcodeHot100;
+package leetcodeHot100.L;
 
 public class l0141 {
     class ListNode {

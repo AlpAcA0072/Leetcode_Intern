@@ -1,4 +1,4 @@
-package leetcodeHot100;
+package leetcodeHot100.S;
 
 public class s0060 {
     class Solution {
