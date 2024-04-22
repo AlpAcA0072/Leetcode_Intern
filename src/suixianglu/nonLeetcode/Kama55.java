@@ -1,4 +1,4 @@
-package suixianglu.NonLeetCode;
+package suixianglu.nonLeetcode;
 
 // 版本一
 

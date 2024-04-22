@@ -1,4 +1,4 @@
-package suixianglu.Tree.S;
+package suixianglu.tree.S;
 
 import ulib.TreeNode;
 

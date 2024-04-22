@@ -1,15 +1,15 @@
-package suixianglu.Tree.L;
+package suixianglu.tree.L;
 
 import ulib.*;
 
 import java.util.Deque;
 import java.util.LinkedList;
 
-public class l0111 {
+public class l0104 {
     class Solution {
         int depth = 0;
 
-        public int minDepth(TreeNode root) {
+        public int maxDepth(TreeNode root) {
             Deque<TreeNode> deque = new LinkedList<>();
             if (root != null) deque.addLast(root);
             TreeNode node;
@@ -20,7 +20,6 @@ public class l0111 {
                     node = deque.removeFirst();
                     if (node.left != null) deque.addLast(node.left);
                     if (node.right != null) deque.addLast(node.right);
-                    if (node.left == null && node.right == null) return depth;
                 }
             }
 
