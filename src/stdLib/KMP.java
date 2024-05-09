@@ -17,4 +17,21 @@ public class KMP {
 
         return next;
     }
+
+    public int strStr(String query, String ptr) {
+        int[] next = findNext(ptr);
+        int j = 0, i = 0;
+        while (i < query.length() && j < ptr.length()) {
+            if (query.charAt(i) != ptr.charAt(j)) {
+                if (j > 0) j = next[j - 1];
+                else i++;
+            } else {
+                j++;
+                i++;
+            }
+        }
+        if (j == ptr.length()) return i - j;
+
+        return -1;
+    }
 }
