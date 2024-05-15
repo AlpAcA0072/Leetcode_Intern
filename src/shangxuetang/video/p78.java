@@ -1,4 +1,4 @@
-package shangxuetang;
+package shangxuetang.video;
 
 import java.util.Objects;
 

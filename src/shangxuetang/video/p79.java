@@ -1,4 +1,4 @@
-package shangxuetang;
+package shangxuetang.video;
 
 public class p79 {
     public static void main(String[] args) {
