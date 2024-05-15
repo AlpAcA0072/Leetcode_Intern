@@ -81,7 +81,6 @@ public class p32 {
     public void testCompare() {
         BigInteger bigNum1 = new BigInteger("52");
         BigInteger bigNum2 = new BigInteger("27");
-
         //1.compareTo()：返回一个int型数据（1 大于； 0 等于； -1 小于）
         int num = bigNum1.compareTo(bigNum2);            //1
 
