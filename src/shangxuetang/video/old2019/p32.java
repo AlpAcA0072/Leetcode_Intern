@@ -1,11 +1,10 @@
-package shangxuetang.video;
+package shangxuetang.video.old2019;
 
 import org.junit.Test;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;
 import java.math.RoundingMode;
-import java.util.HashMap;
 import java.util.Scanner;
 
 /**

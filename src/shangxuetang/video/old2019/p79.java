@@ -1,4 +1,4 @@
-package shangxuetang.video;
+package shangxuetang.video.old2019;
 
 public class p79 {
     public static void main(String[] args) {
