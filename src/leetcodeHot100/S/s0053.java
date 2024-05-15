@@ -8,6 +8,7 @@ public class s0053 {
             if (nums == null || nums.length == 0) return 0;
             return helper(nums, 0, nums.length - 1);
         }
+
         private int helper(int[] nums, int l, int r) {
             if (l > r) return Integer.MIN_VALUE;
             int mid = (l + r) >>> 1;
