@@ -1,8 +1,4 @@
-package shangxuetang.project.MyInteger;
-
 import org.jetbrains.annotations.NotNull;
-
-import java.lang.invoke.VarHandle;
 
 public class MyInteger {
     public int value;
