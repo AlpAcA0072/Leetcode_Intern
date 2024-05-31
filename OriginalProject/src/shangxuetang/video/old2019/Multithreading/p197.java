@@ -9,7 +9,8 @@ public class p197 extends Thread {
 
     @Override
     public void run() {
-        Downloader.download(url, name);
+        WebDownloader wd = new WebDownloader();
+        wd.download(url, name);
     }
 
     public p197(String url, String name) {
@@ -28,14 +29,3 @@ public class p197 extends Thread {
     }
 }
 
-class Downloader {
-    /**
-     * 下载方法
-     *
-     * @param url  下载文件的url
-     * @param name 本地文件名
-     */
-    public static void download(String url, String name) {
-        // TODO: Download with url and name.
-    }
-}
