@@ -2,7 +2,7 @@ package shangxuetang.video.old2019.Multithreading;
 
 /**
  * t.join()
- * 等待t线程终止
+ * 等待t线程终止（阻塞其他线程）
  */
 public class p207_Join2 {
     public static void main(String[] args) {
@@ -21,7 +21,8 @@ class Father extends Thread {
         try {
             // Father被阻塞，Son执行完Father才能继续执行
             t.join();
-            // TODO: t.join(millis)的含义
+            // t.join(millis)的含义
+            // t.join(millis) 的含义是让当前线程等待线程 t 结束执行，但最多等待 millis 毫秒。
             // 最大容忍被阻塞时间
             t.join(1000);
             System.out.println("接过材料，开始做饭");
