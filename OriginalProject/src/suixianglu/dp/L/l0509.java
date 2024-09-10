@@ -20,4 +20,20 @@ public class l0509 {
             return f1;
         }
     }
+
+    class Solution2 {
+        public int fib(int n) {
+            if (n <= 1) return n;
+            int n2 = 0;
+            int n1 = 1;
+            int temp;
+            for (int i = 2; i <= n; i++) {
+                temp = n1;
+                n1 += n2;
+                n2 = temp;
+            }
+
+            return n1;
+        }
+    }
 }
